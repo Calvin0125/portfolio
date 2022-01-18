@@ -1,0 +1,21 @@
+.container-md.mt-5
+  %h1.fs-1.mb-5.text-light= "My Projects"
+  %h2.fs-2.text-light= "Info Compass"
+  %ul
+    %li.text-light= "A website created with Ruby on Rails and Bootstrap that connects users with research papers and news articles about topics they're interested in."
+    %li.text-light= "Created usint the Test Driven Development process with Rspec resulting in 98.8% test coverage."
+    %li.text-light= "Used the Faraday Ruby Gem to send HTTP requests to retrieve up to 100 articles per topic per day out of milli.text-lightons of articles on the Media Stack and Arxiv APIs."
+    %li.text-light= "Stored articles and user-submitted notes with PostgreSQL, allowing users to track what they have read."
+    %li.text-light= "Wrote cron jobs to automate API queries and perform daily database backups and tests, which saves time for users and minimizes the risk of data loss."
+    %li.text-light= 'View the source code <a href="https://github.com/Calvin0125/info_compass">here</a>.'.html_safe
+  .w-75.mx-auto.mb-5
+    %a(href="http://infocompass.tech")
+      = image_pack_tag 'media/images/infocompass.png', alt: 'Screenshot of InfoCompass website', class: 'img-fluid'
+  %h2.fs-2.text-light= "Staunton Dyes"
+  %ul
+    %li.text-light= "Launched the first online store for Staunton Dyes using Ruby on Rails and the Shopify API, allowing them to reach many new potential customers."
+    %li.text-light= "Created a system using PostgreSQL to allow the store owner to save and update images and descriptions, eliminating 100% of developer hours for those updates."
+    %li.text-light= "Integrated the error monitoring system with my phone and automated daily backups and tests to minimize risk for the client and create a seamless experience for customers."
+  .w-75.mx-auto.mb-5
+    %a(href="http://stauntondyes.com")
+      = image_pack_tag 'media/images/stauntondyes.png', alt: 'Screenshot of Staunton Dyes website', class: 'img-fluid'

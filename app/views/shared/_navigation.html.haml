@@ -1,0 +1,13 @@
+%nav.navbar.navbar-expand-md.bg-secondary
+  %button.navbar-toggler.me-2(type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent")
+    %span.navbar-toggler-icon
+  .collapse.navbar-collapse#navbarContent
+    %ul.navbar-nav
+      %li.nav-item.ms-2.me-3
+        %a.nav-link.text-light.fs-4(href="#{home_path}")= "Home"
+      %li.nav-item.me-3
+        %a.nav-link.text-light.fs-4(href="#{about_path}")= "About"
+      %li.nav-item.me-3
+        %a.nav-link.text-light.fs-4(href="#{projects_path}")= "Projects"
+      %li.nav-item.me-3
+        %a.nav-link.text-light.fs-4(href="#{resume_path}")= "Resume"

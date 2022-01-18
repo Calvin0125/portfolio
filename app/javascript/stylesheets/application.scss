@@ -1,1 +1,10 @@
+$primary: #52B69A;
+$secondary: #118AB2;
+$dark: #073B4C;
+$light: #FFFFFF;
 @import "../../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  background: url(../images/main_background.jpg) no-repeat center center fixed;
+  background-size: cover;
+}

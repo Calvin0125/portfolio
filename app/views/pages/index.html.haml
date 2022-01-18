@@ -1,11 +1,13 @@
-%nav.navbar.navbar-expand-md.navbar-dark.bg-dark
-  %button.navbar-toggler.me-2(type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent")
-    %span.navbar-toggler-icon
-  .collapse.navbar-collapse#navbarContent
-    %ul.navbar-nav
-      %li.nav-item
-        %a.nav-link(href="#")= "Home"
-      %li.nav-item
-        %a.nav-link(href="#")= "About"
-      %li.nav-item
-        %a.nav-link(href="#")= "Projects"
+.container-md.mt-5
+  %h1.fs-1.text-light= "Hi, I'm Calvin Conley"
+  %h2.fs-2.text-light= "Full-stack Web Developer"
+  %p.fs-5.text-light= "I enjoy building websites with Ruby on Rails, Javascript, Bootstrap, and PostgreSQL, and I love learning new technologies!" 
+  %p.fs-5.text-light= "I'm available for work and can be contacted at cconley0125@gmail.com." 
+  .row.mt-4
+    .col-1.me-3
+      %a(href="https://www.linkedin.com/in/calvin-conley/")
+        = image_pack_tag 'media/images/linkedin.png', alt: 'linkedin logo', class: 'img-fluid'
+    .col-1
+      %a(href="https://github.com/Calvin0125")
+        = image_pack_tag 'media/images/github.png', alt: 'github logo', class: 'img-fluid'
+      
