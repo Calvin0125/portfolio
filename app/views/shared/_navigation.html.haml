@@ -1,13 +1,13 @@
-%nav.navbar.navbar-expand-md.bg-secondary
-  %button.navbar-toggler.me-2(type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent")
+%nav.navbar.navbar-expand-md.navbar-dark.bg-secondary
+  %button.navbar-toggler.ms-2(type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent")
     %span.navbar-toggler-icon
   .collapse.navbar-collapse#navbarContent
     %ul.navbar-nav
-      %li.nav-item.ms-2.me-3
+      %li.nav-item.ms-2-md.me-3.text-center
         %a.nav-link.text-light.fs-4(href="#{home_path}")= "Home"
-      %li.nav-item.me-3
+      %li.nav-item.me-3.text-center
         %a.nav-link.text-light.fs-4(href="#{about_path}")= "About"
-      %li.nav-item.me-3
+      %li.nav-item.me-3.text-center
         %a.nav-link.text-light.fs-4(href="#{projects_path}")= "Projects"
-      %li.nav-item.me-3
+      %li.nav-item.me-3.text-center
         %a.nav-link.text-light.fs-4(href="#{resume_path}")= "Resume"
